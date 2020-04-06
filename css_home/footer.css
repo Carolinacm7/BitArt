@@ -1,0 +1,110 @@
+footer{
+width: 100%;
+background-color: black;
+}
+
+
+.partefooter{
+    background-color: salmon;
+    padding: 50px ;
+    /* display: inline-flex; */
+}
+
+.contenidof{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulomapa {
+    color: black;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding: 35px 0 15px 0;
+}
+
+iframe {
+    margin-top: 20px;
+    width: 500px;
+    height: 550px;
+    border-radius: 8px;
+    padding-left: 30px;
+    
+}
+ h3{color: salmon;
+text-align: center;
+font-size: 440;}
+form {
+    margin-left: 50px;
+    width: 500px;
+    height: 550px ;
+    background-color: rgba(0, 0, 0, 4);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-family: 'Lobster', cursive;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#boton {
+    background: salmon;
+    color: #000;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background: white;
+    color: salmon;
+}
+
+
+
+
+.contenidoiconos{
+    margin-top: 150px;
+    display: block;
+
+}
+
+.iconosredes{
+
+ margin: 50px auto;
+ width: 300px;
+ text-align: center
+}
+
+.iconosredes img {
+   padding: 15px;
+   ;
+}
+.textofooter{
+    padding: 8px;
+    width: 100%;
+    font-family: "lobster"cursive;
+    text-align: center;
+    font-size: 15px;
+    background-color: salmon;
+height: 80px;
+color: snow;
+}
